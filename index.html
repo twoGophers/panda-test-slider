@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+  <link rel="stylesheet" href="jqueryui/style.css">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+    <body class="">
+    
+        <header>
+            <select class="colorSelection" onchange="selectColor()" name="color" id="">
+                <option class="backgroundOption" id="Orange" value="Orange">Orange</option>
+                <option class="backgroundOption" id="Black" value="Black">Black</option>
+                <option class="backgroundOption" id="Blue" value="Blue">Blue</option>
+                <option class="backgroundOption" id="Red" value="Red">Red</option>
+                <option class="backgroundOption" id="Green" value="Green">Green</option>
+            </select>
+        </header>
+
+        <main>
+            <div id="red"></div>
+            <div id="green"></div>
+            <div id="blue"></div>
+            
+            <div id="swatch" class="ui-widget-content ui-corner-all">
+                <p id="styleText">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+        </main>
+
+    <script src="./index.js"></script>
+    <script src="./indexSelect.js"></script>
+    </body>
+</html>
